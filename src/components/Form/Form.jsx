@@ -7,7 +7,6 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { useState } from "react";
 import { addContacts } from "redux/contacts-api";
 
-
 function Form() {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -38,7 +37,6 @@ function Form() {
       setName('');
       setPhone('');
     }
-
   };
 
     return (
